@@ -15,7 +15,7 @@ import lombok.Data;
 @TableName("murder_user")
 public class MurderModel {
 
-    @ApiModelProperty("客户id")
+    @ApiModelProperty("客户编号")
     @TableField("id")
     private int id;
 
